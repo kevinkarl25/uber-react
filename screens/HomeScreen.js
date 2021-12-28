@@ -16,14 +16,16 @@ const HomeScreen = () => {
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
       <View style={tw`p-5`}>
-        <Image
-          style={{
-            width: 150,
-            height: 150,
-            resizeMode: "contain",
-          }}
-          source={require("../assets/KevUber2.png")}
-        />
+        <View style={tw`-mt-20 -mb-10 -ml-5`}>
+          <Image
+            style={{
+              width: 250,
+              height: 250,
+              resizeMode: "contain",
+            }}
+            source={require("../assets/Uberspo2.png")}
+          />
+        </View>
 
         <GooglePlacesAutocomplete
           styles={{ container: { flex: 0 }, textInput: { fontSize: 18 } }}
